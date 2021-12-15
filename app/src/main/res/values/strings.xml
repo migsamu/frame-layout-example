@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FrameLayoutExample</string>
+    <string name="tv_top_right">Top right</string>
+    <string name="tv_bottom_right">Bottom right</string>
+    <string name="tv_center_left">Center left</string>
+    <string name="imagen">imagen</string>
+</resources>

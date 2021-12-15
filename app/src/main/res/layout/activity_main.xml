@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTopRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:text="@string/tv_top_right" />
+
+    <TextView
+        android:id="@+id/tvBottomRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:text="@string/tv_bottom_right" />
+
+    <TextView
+        android:id="@+id/tvCenterLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|start"
+        android:text="@string/tv_center_left" />
+
+    <ImageView
+        android:id="@+id/ivTopLeft"
+        android:layout_width="92dp"
+        android:layout_height="90dp"
+        android:contentDescription="@string/imagen"
+        app:srcCompat="@android:drawable/ic_media_play"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/ivBottomLeft"
+        android:layout_width="93dp"
+        android:layout_height="89dp"
+        android:layout_gravity="bottom"
+        android:contentDescription="@string/imagen"
+        app:srcCompat="@android:drawable/ic_media_pause"
+        tools:ignore="ImageContrastCheck" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="cambiar"
+        android:text="Button" />
+
+</FrameLayout>
