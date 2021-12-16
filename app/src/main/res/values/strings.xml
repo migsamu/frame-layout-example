@@ -4,4 +4,5 @@
     <string name="tv_bottom_right">Bottom right</string>
     <string name="tv_center_left">Center left</string>
     <string name="imagen">imagen</string>
+    <string name="btn_cambiar">Cambiar</string>
 </resources>
